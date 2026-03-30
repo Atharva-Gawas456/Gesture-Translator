@@ -1,0 +1,23 @@
+# Gesture-Translator — Python dependencies
+# Tested on Python 3.10, 3.11, and 3.13 (Linux/macOS/Windows)
+# Install: pip install -r requirements.txt
+
+# ── Computer Vision & Landmark Extraction ─────────────────────────────────
+mediapipe>=0.10.30
+opencv-python==4.10.0.84
+
+# ── Deep Learning ─────────────────────────────────────────────────────────
+tensorflow==2.16.1           # Keras is bundled inside TF 2.x
+# PyTorch alternative (uncomment if preferred):
+# torch==2.3.0
+# torchvision==0.18.0
+
+# ── Data & Training Utilities ─────────────────────────────────────────────
+numpy==1.26.4
+scikit-learn==1.5.0
+
+# ── Text-to-Speech ────────────────────────────────────────────────────────
+pyttsx3==2.90
+
+# ── Optional: experiment tracking ─────────────────────────────────────────
+# tensorboard==2.16.2        # bundled with tensorflow; uncomment to pin
